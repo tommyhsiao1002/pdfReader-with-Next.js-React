@@ -13,7 +13,7 @@ const Page = async () => {
     }
   })
 
-  if(!dbUser) redirect("/auth-callback!orginb=dashboard")
+  if(!dbUser) redirect("/auth-callback?origin=dashboard")
   return <Dashboard/>
 };
 
